@@ -88,6 +88,7 @@ RSpec.describe User, type: :model do
      
       expect(@user2).to_not be_nil
     end
+    
     it 'should log in with additional white space to email and valid password' do
       @user = User.new
       @user.email = 'email@email.com'

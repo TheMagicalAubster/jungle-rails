@@ -37,5 +37,8 @@ module Jungle
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    #Dealing with error "Failure/Error: raise "Missing `secret_token` and `secret_key_base` for '#{Rails.env}' environment, set these values in `config/secrets.yml`""
+    config.secret_key_base = '<%= ENV["SECRET_KEY_BASE"] %>'
   end
 end
