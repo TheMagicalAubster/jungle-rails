@@ -2,7 +2,12 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Description
+Jungle is a rails application designed to showcase products for sale, all the way from browsing to checkout. Select an item, add to cart, and make a purchase! Works like any buy/sell website. Admin users can add or delete products, and can add categories as the admin sees fit. 
 
+![Products Page](public/Products_Page.png)
+![My Cart](public/My_Cart.png)
+![Admin Dashboard](public/Admin_Dashboard.png)
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -25,3 +30,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
